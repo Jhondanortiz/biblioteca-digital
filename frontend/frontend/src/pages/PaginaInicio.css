@@ -1,0 +1,54 @@
+.pagina-inicio {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px;
+    color: white;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .header {
+    margin: 40px 0;
+  }
+  
+  .btn-explorar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .destacados {
+    margin-top: 40px;
+  }
+  
+  .libros {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .libro img {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .libro p {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  

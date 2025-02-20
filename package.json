@@ -1,0 +1,25 @@
+{
+    "name": "biblioteca-digital",
+    "version": "1.0.0",
+    "description": "Sistema de gestión de biblioteca digital",
+    "scripts": {
+        "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+        "backend": "cd backend && npm start",
+        "frontend": "cd frontend && npm start",
+        "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+        "build": "cd frontend && npm run build",
+        "test": "concurrently \"cd backend && npm test\" \"cd frontend && npm test\""
+    },
+    "keywords": [
+        "biblioteca",
+        "digital",
+        "react",
+        "node",
+        "express"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
